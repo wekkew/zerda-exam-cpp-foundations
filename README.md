@@ -68,3 +68,4 @@ Type F35, Ammo: 12, Base Damage: 50, All Damage: 600
 Type F16, Ammo: 8, Base Damage: 30, All Damage: 240
 Type F16, Ammo: 8, Base Damage: 30, All Damage: 240
 ```
+If the health points are 0 than it should give back: `It's dead Jim :(`
