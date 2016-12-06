@@ -5,15 +5,16 @@
 Create a class that represents an aircraft
 
 There are 2 types of aircrafts: F16 and F35
+
 Both aircraft should track how many ammo it has
 
 #### F16
-Max ammo: 8
-Base damage: 30
+ - Max ammo: 8
+ - Base damage: 30
 
 #### F35
-Max ammo: 12
-Base damage: 50
+ - Max ammo: 12
+ - Base damage: 50
 
 All the aircrafts should be created with empty ammo store
 
@@ -52,6 +53,7 @@ its store
 #### fill
 It should fill the aircraft with ammo and substract the needed ammo from the
 ammo_storage. If there is not enough ammo than it should fill the F35 types first
+If there is no ammo when this method is called it should throw an exception.
 
 #### fight
 It should take another carrier as a refrence parameter and fire all the ammo
